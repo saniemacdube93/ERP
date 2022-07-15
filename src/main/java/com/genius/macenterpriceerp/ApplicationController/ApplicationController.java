@@ -13,6 +13,11 @@ public class ApplicationController {
     }
 
 
+    @GetMapping("/hr")
+    public String layout(){
+        return "/hr/ola";
+    }
+
 
 
 
